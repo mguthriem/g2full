@@ -1,0 +1,358 @@
+{
+  "build": "pyhfa7a67d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "pillow >=8.3.2",
+    "python >=3"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/imageio-2.23.0-pyhfa7a67d_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/imageio-2.23.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/imageio/__init__.py",
+    "lib/python3.10/site-packages/imageio/__main__.py",
+    "lib/python3.10/site-packages/imageio/config/__init__.py",
+    "lib/python3.10/site-packages/imageio/config/extensions.py",
+    "lib/python3.10/site-packages/imageio/config/extensions.pyi",
+    "lib/python3.10/site-packages/imageio/config/plugins.py",
+    "lib/python3.10/site-packages/imageio/config/plugins.pyi",
+    "lib/python3.10/site-packages/imageio/core/__init__.py",
+    "lib/python3.10/site-packages/imageio/core/fetching.py",
+    "lib/python3.10/site-packages/imageio/core/findlib.py",
+    "lib/python3.10/site-packages/imageio/core/format.py",
+    "lib/python3.10/site-packages/imageio/core/format.pyi",
+    "lib/python3.10/site-packages/imageio/core/imopen.py",
+    "lib/python3.10/site-packages/imageio/core/imopen.pyi",
+    "lib/python3.10/site-packages/imageio/core/legacy_plugin_wrapper.py",
+    "lib/python3.10/site-packages/imageio/core/legacy_plugin_wrapper.pyi",
+    "lib/python3.10/site-packages/imageio/core/request.py",
+    "lib/python3.10/site-packages/imageio/core/request.pyi",
+    "lib/python3.10/site-packages/imageio/core/util.py",
+    "lib/python3.10/site-packages/imageio/core/v3_plugin_api.py",
+    "lib/python3.10/site-packages/imageio/freeze.py",
+    "lib/python3.10/site-packages/imageio/plugins/__init__.py",
+    "lib/python3.10/site-packages/imageio/plugins/_bsdf.py",
+    "lib/python3.10/site-packages/imageio/plugins/_dicom.py",
+    "lib/python3.10/site-packages/imageio/plugins/_freeimage.py",
+    "lib/python3.10/site-packages/imageio/plugins/_swf.py",
+    "lib/python3.10/site-packages/imageio/plugins/_tifffile.py",
+    "lib/python3.10/site-packages/imageio/plugins/bsdf.py",
+    "lib/python3.10/site-packages/imageio/plugins/dicom.py",
+    "lib/python3.10/site-packages/imageio/plugins/example.py",
+    "lib/python3.10/site-packages/imageio/plugins/feisem.py",
+    "lib/python3.10/site-packages/imageio/plugins/ffmpeg.py",
+    "lib/python3.10/site-packages/imageio/plugins/fits.py",
+    "lib/python3.10/site-packages/imageio/plugins/freeimage.py",
+    "lib/python3.10/site-packages/imageio/plugins/freeimagemulti.py",
+    "lib/python3.10/site-packages/imageio/plugins/gdal.py",
+    "lib/python3.10/site-packages/imageio/plugins/grab.py",
+    "lib/python3.10/site-packages/imageio/plugins/lytro.py",
+    "lib/python3.10/site-packages/imageio/plugins/npz.py",
+    "lib/python3.10/site-packages/imageio/plugins/opencv.py",
+    "lib/python3.10/site-packages/imageio/plugins/pillow.py",
+    "lib/python3.10/site-packages/imageio/plugins/pillow_info.py",
+    "lib/python3.10/site-packages/imageio/plugins/pillow_legacy.py",
+    "lib/python3.10/site-packages/imageio/plugins/pillowmulti.py",
+    "lib/python3.10/site-packages/imageio/plugins/pyav.py",
+    "lib/python3.10/site-packages/imageio/plugins/simpleitk.py",
+    "lib/python3.10/site-packages/imageio/plugins/spe.py",
+    "lib/python3.10/site-packages/imageio/plugins/swf.py",
+    "lib/python3.10/site-packages/imageio/plugins/tifffile.py",
+    "lib/python3.10/site-packages/imageio/py.typed",
+    "lib/python3.10/site-packages/imageio/resources/images/astronaut.png",
+    "lib/python3.10/site-packages/imageio/resources/images/chelsea.png",
+    "lib/python3.10/site-packages/imageio/resources/images/chelsea.zip",
+    "lib/python3.10/site-packages/imageio/resources/images/cockatoo.mp4",
+    "lib/python3.10/site-packages/imageio/resources/images/newtonscradle.gif",
+    "lib/python3.10/site-packages/imageio/resources/images/realshort.mp4",
+    "lib/python3.10/site-packages/imageio/resources/images/stent.npz",
+    "lib/python3.10/site-packages/imageio/resources/shipped_resources_go_here",
+    "lib/python3.10/site-packages/imageio/testing.py",
+    "lib/python3.10/site-packages/imageio/typing.py",
+    "lib/python3.10/site-packages/imageio/v2.py",
+    "lib/python3.10/site-packages/imageio/v2.pyi",
+    "lib/python3.10/site-packages/imageio/v3.py",
+    "lib/python3.10/site-packages/imageio/v3.pyi",
+    "lib/python3.10/site-packages/imageio/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/config/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/config/__pycache__/extensions.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/config/__pycache__/plugins.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/fetching.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/findlib.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/format.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/imopen.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/legacy_plugin_wrapper.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/request.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/util.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/core/__pycache__/v3_plugin_api.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/__pycache__/freeze.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/_bsdf.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/_dicom.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/_freeimage.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/_swf.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/_tifffile.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/bsdf.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/dicom.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/example.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/feisem.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/ffmpeg.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/fits.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/freeimage.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/freeimagemulti.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/gdal.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/grab.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/lytro.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/npz.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/opencv.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/pillow.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/pillow_info.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/pillow_legacy.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/pillowmulti.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/pyav.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/simpleitk.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/spe.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/swf.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/plugins/__pycache__/tifffile.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/__pycache__/testing.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/__pycache__/typing.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/__pycache__/v2.cpython-310.pyc",
+    "lib/python3.10/site-packages/imageio/__pycache__/v3.cpython-310.pyc",
+    "bin/imageio_download_bin",
+    "bin/imageio_remove_bin"
+  ],
+  "fn": "imageio-2.23.0-pyhfa7a67d_0.conda",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/imageio-2.23.0-pyhfa7a67d_0",
+    "type": 1
+  },
+  "md5": "f91cdb239b1470769c1c4b4266928559",
+  "name": "imageio",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/imageio-2.23.0-pyhfa7a67d_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/imageio/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/config/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/config/__pycache__/extensions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/config/__pycache__/plugins.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/fetching.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/findlib.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/format.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/imopen.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/legacy_plugin_wrapper.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/request.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/util.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/core/__pycache__/v3_plugin_api.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/__pycache__/freeze.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/_bsdf.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/_dicom.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/_freeimage.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/_swf.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/_tifffile.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/bsdf.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/dicom.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/example.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/feisem.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/ffmpeg.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/fits.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/freeimage.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/freeimagemulti.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/gdal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/grab.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/lytro.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/npz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/opencv.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/pillow.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/pillow_info.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/pillow_legacy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/pillowmulti.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/pyav.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/simpleitk.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/spe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/swf.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/plugins/__pycache__/tifffile.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/__pycache__/testing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/__pycache__/typing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/__pycache__/v2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/imageio/__pycache__/v3.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/imageio_download_bin",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/imageio_remove_bin",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "imageio==2.23.0=pyhfa7a67d_0",
+  "sha256": "8d4648b7b0b4d35991d15454d320193e893c87b1a0d1d5b2dbbd5543a4493faf",
+  "size": 3252974,
+  "subdir": "noarch",
+  "timestamp": 1671532701131,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/imageio-2.23.0-pyhfa7a67d_0.conda",
+  "version": "2.23.0"
+}

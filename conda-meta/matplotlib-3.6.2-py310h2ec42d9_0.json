@@ -1,0 +1,37 @@
+{
+  "build": "py310h2ec42d9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.6.2,<3.6.3.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/matplotlib-3.6.2-py310h2ec42d9_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.6.2-py310h2ec42d9_0.tar.bz2",
+  "license": "LicenseRef-PSF-2.0 and CC0-1.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/matplotlib-3.6.2-py310h2ec42d9_0",
+    "type": 1
+  },
+  "md5": "6e03d5c48a5535551daa8ab9e47de708",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/matplotlib-3.6.2-py310h2ec42d9_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib==3.6.2=py310h2ec42d9_0",
+  "sha256": "bb115279d61c3912da8b5917b550dcfa433195e447288342038eeb8c9cede7aa",
+  "size": 7315,
+  "subdir": "osx-64",
+  "timestamp": 1667505334993,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/matplotlib-3.6.2-py310h2ec42d9_0.tar.bz2",
+  "version": "3.6.2"
+}

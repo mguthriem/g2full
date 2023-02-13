@@ -1,0 +1,68 @@
+{
+  "build": "h3899abd_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "ncurses >=6.3,<7.0a0"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/readline-8.1.2-h3899abd_0",
+  "features": "",
+  "files": [
+    "include/readline/chardefs.h",
+    "include/readline/history.h",
+    "include/readline/keymaps.h",
+    "include/readline/readline.h",
+    "include/readline/rlconf.h",
+    "include/readline/rlstdc.h",
+    "include/readline/rltypedefs.h",
+    "include/readline/tilde.h",
+    "lib/libhistory.8.1.dylib",
+    "lib/libhistory.8.dylib",
+    "lib/libhistory.dylib",
+    "lib/libreadline.8.1.dylib",
+    "lib/libreadline.8.dylib",
+    "lib/libreadline.dylib",
+    "lib/pkgconfig/readline.pc",
+    "share/doc/readline/CHANGES",
+    "share/doc/readline/INSTALL",
+    "share/doc/readline/README",
+    "share/info/history.info",
+    "share/info/readline.info",
+    "share/info/rluserman.info",
+    "share/man/man3/history.3",
+    "share/man/man3/readline.3"
+  ],
+  "fn": "readline-8.1.2-h3899abd_0.tar.bz2",
+  "license": "GPL-3.0-only",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/readline-8.1.2-h3899abd_0",
+    "type": 1
+  },
+  "md5": "89fa404901fa8fb7d4f4e07083b8d635",
+  "name": "readline",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/readline-8.1.2-h3899abd_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/readline.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/readline_1654822404976/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "976a23ca63347411f2f2ead11fc369028fa464cf334ce9d45a9e49b0648dd69e",
+        "sha256_in_prefix": "cc426ed25f79146c3e0844d86a52112b95c7c6f9dd5ef36d06536868a2e2e7eb",
+        "size_in_bytes": 564
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "readline==8.1.2=h3899abd_0",
+  "sha256": "c65dc1200a252832db49bdd6836c512a0eaafe97aa914b9f8358b15eebb1d94b",
+  "size": 272450,
+  "subdir": "osx-64",
+  "timestamp": 1654822547827,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/readline-8.1.2-h3899abd_0.tar.bz2",
+  "version": "8.1.2"
+}

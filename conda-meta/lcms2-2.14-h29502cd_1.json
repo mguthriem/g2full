@@ -1,0 +1,61 @@
+{
+  "build": "h29502cd_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "jpeg >=9e,<10a",
+    "libtiff >=4.5.0,<4.6.0a0"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/lcms2-2.14-h29502cd_1",
+  "features": "",
+  "files": [
+    "bin/jpgicc",
+    "bin/linkicc",
+    "bin/psicc",
+    "bin/tificc",
+    "bin/transicc",
+    "include/lcms2.h",
+    "include/lcms2_plugin.h",
+    "lib/liblcms2.2.dylib",
+    "lib/liblcms2.dylib",
+    "lib/pkgconfig/lcms2.pc",
+    "share/man/man1/jpgicc.1",
+    "share/man/man1/linkicc.1",
+    "share/man/man1/psicc.1",
+    "share/man/man1/tificc.1",
+    "share/man/man1/transicc.1"
+  ],
+  "fn": "lcms2-2.14-h29502cd_1.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/lcms2-2.14-h29502cd_1",
+    "type": 1
+  },
+  "md5": "1e42174021ffc69545f0814b9478dee3",
+  "name": "lcms2",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/lcms2-2.14-h29502cd_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/lcms2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/lcms2_1671422317017/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "72b291baa5f5d5a9480805e24dfc7f0ffb852748d759f3b3327a48e968adb8fb",
+        "sha256_in_prefix": "6738a60823eb7ebf990ab68b5c4030a5e32b09d18c14c7621c5622715959e35e",
+        "size_in_bytes": 489
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "lcms2==2.14=h29502cd_1",
+  "sha256": "64efad232b892c2511ba56bbd821e0b1e2e80a7a8ccf3524c20b5f964793ce43",
+  "size": 226051,
+  "subdir": "osx-64",
+  "timestamp": 1671422650147,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lcms2-2.14-h29502cd_1.conda",
+  "version": "2.14"
+}

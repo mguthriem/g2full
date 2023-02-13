@@ -1,0 +1,34 @@
+{
+  "build": "h033912b_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/ca-certificates-2022.12.7-h033912b_0",
+  "features": "",
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "fn": "ca-certificates-2022.12.7-h033912b_0.conda",
+  "license": "ISC",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/ca-certificates-2022.12.7-h033912b_0",
+    "type": 1
+  },
+  "md5": "af2bdcd68f16ce030ca957cdeb83d88a",
+  "name": "ca-certificates",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/ca-certificates-2022.12.7-h033912b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "ca-certificates==2022.12.7=h033912b_0",
+  "sha256": "898276d86de89fb034ecfae05103045d0a0d6a356ced1b6d1832cdbd07a8fc18",
+  "size": 145843,
+  "subdir": "osx-64",
+  "timestamp": 1670457884808,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/ca-certificates-2022.12.7-h033912b_0.conda",
+  "version": "2022.12.7"
+}

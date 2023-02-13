@@ -1,0 +1,125 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/charset-normalizer-2.1.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/LICENSE",
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/charset_normalizer-2.1.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/charset_normalizer/__init__.py",
+    "lib/python3.10/site-packages/charset_normalizer/api.py",
+    "lib/python3.10/site-packages/charset_normalizer/assets/__init__.py",
+    "lib/python3.10/site-packages/charset_normalizer/cd.py",
+    "lib/python3.10/site-packages/charset_normalizer/cli/__init__.py",
+    "lib/python3.10/site-packages/charset_normalizer/cli/normalizer.py",
+    "lib/python3.10/site-packages/charset_normalizer/constant.py",
+    "lib/python3.10/site-packages/charset_normalizer/legacy.py",
+    "lib/python3.10/site-packages/charset_normalizer/md.py",
+    "lib/python3.10/site-packages/charset_normalizer/models.py",
+    "lib/python3.10/site-packages/charset_normalizer/py.typed",
+    "lib/python3.10/site-packages/charset_normalizer/utils.py",
+    "lib/python3.10/site-packages/charset_normalizer/version.py",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/assets/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/cd.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/cli/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/cli/__pycache__/normalizer.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/constant.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/legacy.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/md.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/models.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/charset_normalizer/__pycache__/version.cpython-310.pyc",
+    "bin/normalizer"
+  ],
+  "fn": "charset-normalizer-2.1.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/charset-normalizer-2.1.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c1d5b294fbf9a795dec349a6f4d8be8e",
+  "name": "charset-normalizer",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/charset-normalizer-2.1.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/api.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/assets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/cd.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/cli/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/cli/__pycache__/normalizer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/constant.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/legacy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/md.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/models.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/charset_normalizer/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/normalizer",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "charset-normalizer==2.1.1=pyhd8ed1ab_0",
+  "sha256": "9e6170fa7b65b5546377eddb602d5ff871110f84bebf101b7b8177ff64aab1cb",
+  "size": 36483,
+  "subdir": "noarch",
+  "timestamp": 1661170747216,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/charset-normalizer-2.1.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.1.1"
+}

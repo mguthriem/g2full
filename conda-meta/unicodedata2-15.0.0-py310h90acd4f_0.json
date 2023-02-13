@@ -1,0 +1,45 @@
+{
+  "build": "py310h90acd4f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/unicodedata2-15.0.0-py310h90acd4f_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/unicodedata2-15.0.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/unicodedata2-15.0.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/unicodedata2-15.0.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/unicodedata2-15.0.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/unicodedata2-15.0.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/unicodedata2-15.0.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/unicodedata2-15.0.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/unicodedata2-15.0.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/unicodedata2.cpython-310-darwin.so"
+  ],
+  "fn": "unicodedata2-15.0.0-py310h90acd4f_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/unicodedata2-15.0.0-py310h90acd4f_0",
+    "type": 1
+  },
+  "md5": "b62adca3645b3bbc46940d5b1833d59b",
+  "name": "unicodedata2",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/unicodedata2-15.0.0-py310h90acd4f_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "unicodedata2==15.0.0=py310h90acd4f_0",
+  "sha256": "69e8397a2ee493eef2ccde8d5d877886a89be887111a6fc276fb27b6a86c4131",
+  "size": 497776,
+  "subdir": "osx-64",
+  "timestamp": 1667240340354,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/unicodedata2-15.0.0-py310h90acd4f_0.tar.bz2",
+  "version": "15.0.0"
+}

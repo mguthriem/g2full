@@ -1,0 +1,83 @@
+{
+  "build": "h6df9250_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.20.1,<1.21.0a0",
+    "libnghttp2 >=1.47.0,<2.0a0",
+    "libssh2 >=1.10.0,<2.0a0",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "openssl >=3.0.7,<4.0a0"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libcurl-7.87.0-h6df9250_0",
+  "features": "",
+  "files": [
+    "bin/curl-config",
+    "include/curl/curl.h",
+    "include/curl/curlver.h",
+    "include/curl/easy.h",
+    "include/curl/header.h",
+    "include/curl/mprintf.h",
+    "include/curl/multi.h",
+    "include/curl/options.h",
+    "include/curl/stdcheaders.h",
+    "include/curl/system.h",
+    "include/curl/typecheck-gcc.h",
+    "include/curl/urlapi.h",
+    "include/curl/websockets.h",
+    "lib/libcurl.4.dylib",
+    "lib/libcurl.dylib",
+    "lib/pkgconfig/libcurl.pc"
+  ],
+  "fn": "libcurl-7.87.0-h6df9250_0.conda",
+  "license": "curl",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libcurl-7.87.0-h6df9250_0",
+    "type": 1
+  },
+  "md5": "10b51d82bf33b95e0abe6a224be254c8",
+  "name": "libcurl",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libcurl-7.87.0-h6df9250_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/curl-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/curl_split_recipe_1671621388304/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "a073bf7af3acf6daa47e300ec5910877009034021c1c34b306730c707bf8691a",
+        "sha256_in_prefix": "891440d74f06f6258d47b811e36f67fec6fd2cc1c96fd61051e644a51a399ae5",
+        "size_in_bytes": 12077
+      },
+      {
+        "_path": "lib/libcurl.4.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/curl_split_recipe_1671621388304/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "f400d19768d857d3e11da88d66bc632007c3eee82bc1d30c900d57bfaf12e46b",
+        "sha256_in_prefix": "8053b564eabd2b0505d589bf8da6ad337ee111389b197bc2a8a0060eef7a8d41",
+        "size_in_bytes": 688920
+      },
+      {
+        "_path": "lib/pkgconfig/libcurl.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/curl_split_recipe_1671621388304/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "2b6ba7cfad26aa753075d9046a01e099deefeb470f62d98cd66a608b1f8e7042",
+        "sha256_in_prefix": "1cf825e2ecafa89a494521e98fa0445ba923f6adf9c03030949cc01300dad193",
+        "size_in_bytes": 2042
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libcurl==7.87.0=h6df9250_0",
+  "sha256": "8ae104001b725e4a3655f1912def8b7126456141a0e14bbf85b326ed13a1c6e5",
+  "size": 332749,
+  "subdir": "osx-64",
+  "timestamp": 1671621737157,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libcurl-7.87.0-h6df9250_0.conda",
+  "version": "7.87.0"
+}

@@ -1,0 +1,66 @@
+{
+  "build": "py310h90acd4f_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/python.app-1.4-py310h90acd4f_1",
+  "features": "",
+  "files": [
+    "bin/.python.app-post-link.sh",
+    "bin/.python.app-pre-unlink.sh",
+    "bin/python.app",
+    "bin/pythonw",
+    "pythonapp/Contents/Info.plist",
+    "pythonapp/Contents/MacOS/python",
+    "pythonapp/Contents/PkgInfo",
+    "pythonapp/Contents/Resources/empty.lproj",
+    "pythonapp/Contents/Resources/qt_menu.nib/classes.nib",
+    "pythonapp/Contents/Resources/qt_menu.nib/info.nib",
+    "pythonapp/Contents/Resources/qt_menu.nib/keyedobjects.nib"
+  ],
+  "fn": "python.app-1.4-py310h90acd4f_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/python.app-1.4-py310h90acd4f_1",
+    "type": 1
+  },
+  "md5": "696367247498449292d0113d3c1f8882",
+  "name": "python.app",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/python.app-1.4-py310h90acd4f_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/python.app",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/python.app_1666875222530/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "fe6fd8b913a03d7ad1036e21e6f6f3f16385a60aa83f640d6b141dbad9abc315",
+        "sha256_in_prefix": "6d6dff1b703640390a0a54e4b1621b911ae552820f09fdd172e159a30c929669",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "bin/pythonw",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/python.app_1666875222530/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "fe6fd8b913a03d7ad1036e21e6f6f3f16385a60aa83f640d6b141dbad9abc315",
+        "sha256_in_prefix": "6d6dff1b703640390a0a54e4b1621b911ae552820f09fdd172e159a30c929669",
+        "size_in_bytes": 597
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python.app==1.4=py310h90acd4f_1",
+  "sha256": "9db71ff4d6385746d9c8d2397c42e39e33119bdb6d2e5bfa49c17b766849fe2c",
+  "size": 13232,
+  "subdir": "osx-64",
+  "timestamp": 1666875426428,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/python.app-1.4-py310h90acd4f_1.tar.bz2",
+  "version": "1.4"
+}

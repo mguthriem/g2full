@@ -1,0 +1,10 @@
+prefix=/Users/66j/Documents/ORNL/code/g2full
+exec_prefix=${prefix}
+includedir=/Users/66j/Documents/ORNL/code/g2full/include
+libdir=/Users/66j/Documents/ORNL/code/g2full/lib
+
+Name: libdeflate
+Description: Fast implementation of DEFLATE, zlib, and gzip
+Version: 1.14
+Libs: -L${libdir} -ldeflate
+Cflags: -I${includedir}

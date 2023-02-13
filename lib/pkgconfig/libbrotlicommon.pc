@@ -1,0 +1,11 @@
+prefix=/Users/66j/Documents/ORNL/code/g2full
+exec_prefix=/Users/66j/Documents/ORNL/code/g2full
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlicommon
+URL: https://github.com/google/brotli
+Description: Brotli common dictionary library
+Version: 1.0.9
+Libs: -L${libdir} -lbrotlicommon
+Cflags: -I${includedir}

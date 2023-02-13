@@ -1,0 +1,50 @@
+{
+  "build": "hfd90126_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libzlib 1.2.13 hfd90126_4"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/zlib-1.2.13-hfd90126_4",
+  "features": "",
+  "files": [
+    "include/zconf.h",
+    "include/zlib.h",
+    "lib/libz.a",
+    "lib/libz.dylib",
+    "lib/pkgconfig/zlib.pc"
+  ],
+  "fn": "zlib-1.2.13-hfd90126_4.tar.bz2",
+  "license": "Zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/zlib-1.2.13-hfd90126_4",
+    "type": 1
+  },
+  "md5": "be90e6223c74ea253080abae19b3bdb1",
+  "name": "zlib",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/zlib-1.2.13-hfd90126_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/zlib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/zlib-split_1665759511469/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "698c6059d674bcb4145e45a450f365576c3f04eb6f8cd748026edfd931330fd2",
+        "sha256_in_prefix": "4293c05b37b10e65eb23eb0d2e69aaa4a89d4b91b0e0e1fe3ca7f9877aee7cda",
+        "size_in_bytes": 504
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "zlib==1.2.13=hfd90126_4",
+  "sha256": "9db69bb5fc3e19093b550e25d1158cdf82f4f8eddc1f80f8d7d9de33eb8535a4",
+  "size": 95671,
+  "subdir": "osx-64",
+  "timestamp": 1665759855085,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.13-hfd90126_4.tar.bz2",
+  "version": "1.2.13"
+}

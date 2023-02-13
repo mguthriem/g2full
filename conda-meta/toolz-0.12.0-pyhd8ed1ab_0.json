@@ -1,0 +1,221 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/toolz-0.12.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/tlz/__init__.py",
+    "lib/python3.10/site-packages/tlz/_build_tlz.py",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/AUTHORS.md",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/toolz-0.12.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/toolz/__init__.py",
+    "lib/python3.10/site-packages/toolz/_signatures.py",
+    "lib/python3.10/site-packages/toolz/_version.py",
+    "lib/python3.10/site-packages/toolz/compatibility.py",
+    "lib/python3.10/site-packages/toolz/curried/__init__.py",
+    "lib/python3.10/site-packages/toolz/curried/exceptions.py",
+    "lib/python3.10/site-packages/toolz/curried/operator.py",
+    "lib/python3.10/site-packages/toolz/dicttoolz.py",
+    "lib/python3.10/site-packages/toolz/functoolz.py",
+    "lib/python3.10/site-packages/toolz/itertoolz.py",
+    "lib/python3.10/site-packages/toolz/recipes.py",
+    "lib/python3.10/site-packages/toolz/sandbox/__init__.py",
+    "lib/python3.10/site-packages/toolz/sandbox/core.py",
+    "lib/python3.10/site-packages/toolz/sandbox/parallel.py",
+    "lib/python3.10/site-packages/toolz/tests/test_compatibility.py",
+    "lib/python3.10/site-packages/toolz/tests/test_curried.py",
+    "lib/python3.10/site-packages/toolz/tests/test_curried_doctests.py",
+    "lib/python3.10/site-packages/toolz/tests/test_dicttoolz.py",
+    "lib/python3.10/site-packages/toolz/tests/test_functoolz.py",
+    "lib/python3.10/site-packages/toolz/tests/test_inspect_args.py",
+    "lib/python3.10/site-packages/toolz/tests/test_itertoolz.py",
+    "lib/python3.10/site-packages/toolz/tests/test_recipes.py",
+    "lib/python3.10/site-packages/toolz/tests/test_serialization.py",
+    "lib/python3.10/site-packages/toolz/tests/test_signatures.py",
+    "lib/python3.10/site-packages/toolz/tests/test_tlz.py",
+    "lib/python3.10/site-packages/toolz/tests/test_utils.py",
+    "lib/python3.10/site-packages/toolz/utils.py",
+    "lib/python3.10/site-packages/tlz/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tlz/__pycache__/_build_tlz.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/_signatures.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/compatibility.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/curried/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/curried/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/curried/__pycache__/operator.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/dicttoolz.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/functoolz.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/itertoolz.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/recipes.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/sandbox/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/sandbox/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/sandbox/__pycache__/parallel.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_compatibility.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_curried.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_curried_doctests.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_dicttoolz.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_functoolz.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_inspect_args.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_itertoolz.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_recipes.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_serialization.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_signatures.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_tlz.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/tests/__pycache__/test_utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/toolz/__pycache__/utils.cpython-310.pyc"
+  ],
+  "fn": "toolz-0.12.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/toolz-0.12.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "92facfec94bc02d6ccf42e7173831a36",
+  "name": "toolz",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/toolz-0.12.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/tlz/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tlz/__pycache__/_build_tlz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/_signatures.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/compatibility.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/curried/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/curried/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/curried/__pycache__/operator.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/dicttoolz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/functoolz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/itertoolz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/recipes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/sandbox/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/sandbox/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/sandbox/__pycache__/parallel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_compatibility.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_curried.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_curried_doctests.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_dicttoolz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_functoolz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_inspect_args.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_itertoolz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_recipes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_serialization.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_signatures.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_tlz.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/tests/__pycache__/test_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/toolz/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "toolz==0.12.0=pyhd8ed1ab_0",
+  "sha256": "90229da7665175b0185183ab7b53f50af487c7f9b0f47cf09c184cbc139fd24b",
+  "size": 49136,
+  "subdir": "noarch",
+  "timestamp": 1657485654230,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/toolz-0.12.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.12.0"
+}

@@ -1,0 +1,11 @@
+prefix=/Users/66j/Documents/ORNL/code/g2full
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/66j/Documents/ORNL/code/g2full/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

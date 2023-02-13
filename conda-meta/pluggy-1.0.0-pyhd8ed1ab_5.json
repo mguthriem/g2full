@@ -1,0 +1,88 @@
+{
+  "build": "pyhd8ed1ab_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pluggy-1.0.0-pyhd8ed1ab_5",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pluggy-1.0.0.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pluggy/__init__.py",
+    "lib/python3.10/site-packages/pluggy/_callers.py",
+    "lib/python3.10/site-packages/pluggy/_hooks.py",
+    "lib/python3.10/site-packages/pluggy/_manager.py",
+    "lib/python3.10/site-packages/pluggy/_result.py",
+    "lib/python3.10/site-packages/pluggy/_tracing.py",
+    "lib/python3.10/site-packages/pluggy/_version.py",
+    "lib/python3.10/site-packages/pluggy/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_callers.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_hooks.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_manager.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_result.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_tracing.cpython-310.pyc",
+    "lib/python3.10/site-packages/pluggy/__pycache__/_version.cpython-310.pyc"
+  ],
+  "fn": "pluggy-1.0.0-pyhd8ed1ab_5.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pluggy-1.0.0-pyhd8ed1ab_5",
+    "type": 1
+  },
+  "md5": "7d301a0d25f424d96175f810935f0da9",
+  "name": "pluggy",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pluggy-1.0.0-pyhd8ed1ab_5.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/pluggy/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pluggy/__pycache__/_callers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pluggy/__pycache__/_hooks.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pluggy/__pycache__/_manager.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pluggy/__pycache__/_result.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pluggy/__pycache__/_tracing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pluggy/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pluggy==1.0.0=pyhd8ed1ab_5",
+  "sha256": "c25e1757e4e90638bb1e778aba3ee5f3c01fae9752e3c3929f9be7d367f6c7f3",
+  "size": 16363,
+  "subdir": "noarch",
+  "timestamp": 1667232772321,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pluggy-1.0.0-pyhd8ed1ab_5.tar.bz2",
+  "version": "1.0.0"
+}

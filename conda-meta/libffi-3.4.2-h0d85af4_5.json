@@ -1,0 +1,63 @@
+{
+  "build": "h0d85af4_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libffi-3.4.2-h0d85af4_5",
+  "features": "",
+  "files": [
+    "include/ffi.h",
+    "include/ffitarget.h",
+    "lib/libffi.8.dylib",
+    "lib/libffi.a",
+    "lib/libffi.dylib",
+    "lib/pkgconfig/libffi.pc",
+    "share/info/libffi.info",
+    "share/man/man3/ffi.3",
+    "share/man/man3/ffi_call.3",
+    "share/man/man3/ffi_prep_cif.3",
+    "share/man/man3/ffi_prep_cif_var.3"
+  ],
+  "fn": "libffi-3.4.2-h0d85af4_5.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libffi-3.4.2-h0d85af4_5",
+    "type": 1
+  },
+  "md5": "ccb34fb14960ad8b125962d3d79b31a9",
+  "name": "libffi",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libffi-3.4.2-h0d85af4_5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libffi.8.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libffi_1636488228368/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "61879d1600ba8a73bab546c9268b56b79324d4276c5c6e5dd0a6e8e2f23fca6e",
+        "sha256_in_prefix": "73fd76c204b7e8b8a446d016bdca564bf73716e87e0f1ff259a1f2851936db91",
+        "size_in_bytes": 38364
+      },
+      {
+        "_path": "lib/pkgconfig/libffi.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libffi_1636488228368/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "b3d9cb7ef3f720f3327a0ebe13374054fd6248d9ecbb4f401495538368b966a7",
+        "sha256_in_prefix": "a8654d7a0e68c77bdd7a4021c1a956912e9eeb94e866f59a20c6b75ffb2b8551",
+        "size_in_bytes": 756
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libffi==3.4.2=h0d85af4_5",
+  "sha256": "7a2d27a936ceee6942ea4d397f9c7d136f12549d86f7617e8b6bad51e01a941f",
+  "size": 51348,
+  "subdir": "osx-64",
+  "timestamp": 1636488394370,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libffi-3.4.2-h0d85af4_5.tar.bz2",
+  "version": "3.4.2"
+}

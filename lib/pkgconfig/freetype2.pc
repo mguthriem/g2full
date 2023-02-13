@@ -1,0 +1,14 @@
+prefix=/Users/66j/Documents/ORNL/code/g2full
+exec_prefix=/Users/66j/Documents/ORNL/code/g2full
+libdir=/Users/66j/Documents/ORNL/code/g2full/lib
+includedir=/Users/66j/Documents/ORNL/code/g2full/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/66j/Documents/ORNL/code/g2full/lib -lfreetype
+Libs.private: -lz -L/Users/66j/Documents/ORNL/code/g2full/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

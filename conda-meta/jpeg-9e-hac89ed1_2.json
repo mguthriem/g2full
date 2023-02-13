@@ -1,0 +1,60 @@
+{
+  "build": "hac89ed1_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/jpeg-9e-hac89ed1_2",
+  "features": "",
+  "files": [
+    "bin/cjpeg",
+    "bin/djpeg",
+    "bin/jpegtran",
+    "bin/rdjpgcom",
+    "bin/wrjpgcom",
+    "include/jconfig.h",
+    "include/jerror.h",
+    "include/jmorecfg.h",
+    "include/jpeglib.h",
+    "lib/libjpeg.9.dylib",
+    "lib/libjpeg.a",
+    "lib/libjpeg.dylib",
+    "lib/pkgconfig/libjpeg.pc",
+    "share/man/man1/cjpeg.1",
+    "share/man/man1/djpeg.1",
+    "share/man/man1/jpegtran.1",
+    "share/man/man1/rdjpgcom.1",
+    "share/man/man1/wrjpgcom.1"
+  ],
+  "fn": "jpeg-9e-hac89ed1_2.tar.bz2",
+  "license": "IJG",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/jpeg-9e-hac89ed1_2",
+    "type": 1
+  },
+  "md5": "60d90a3f5803660c5c2a2e9d883df0a6",
+  "name": "jpeg",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/jpeg-9e-hac89ed1_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/libjpeg.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/jpeg_1656501147227/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "40bbf69fcf13153504081d7882d03b3ccfb1a4e5fb075932e4cf1bf678921b1c",
+        "sha256_in_prefix": "59e402c0de185c0bfaf62f8a410a2bd837f5e5abcf0202ca981d621c59d3459d",
+        "size_in_bytes": 460
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jpeg==9e=hac89ed1_2",
+  "sha256": "3bb611fc9fa6a5669aa371ac8b10e0e420689f69f0b7993955d76d8ddddc5e5d",
+  "size": 266671,
+  "subdir": "osx-64",
+  "timestamp": 1656501289943,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/jpeg-9e-hac89ed1_2.tar.bz2",
+  "version": "9e"
+}

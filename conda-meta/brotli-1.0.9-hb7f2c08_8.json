@@ -1,0 +1,41 @@
+{
+  "build": "hb7f2c08_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "brotli-bin 1.0.9 hb7f2c08_8",
+    "libbrotlidec 1.0.9 hb7f2c08_8",
+    "libbrotlienc 1.0.9 hb7f2c08_8"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/brotli-1.0.9-hb7f2c08_8",
+  "features": "",
+  "files": [
+    "include/brotli/decode.h",
+    "include/brotli/encode.h",
+    "include/brotli/port.h",
+    "include/brotli/types.h"
+  ],
+  "fn": "brotli-1.0.9-hb7f2c08_8.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/brotli-1.0.9-hb7f2c08_8",
+    "type": 1
+  },
+  "md5": "55f612fe4a9b5f6ac76348b6de94aaeb",
+  "name": "brotli",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/brotli-1.0.9-hb7f2c08_8.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "brotli==1.0.9=hb7f2c08_8",
+  "sha256": "1272426370f1e8db1a8b245a7b522afe27413b09eab169990512a7676b802e3b",
+  "size": 18999,
+  "subdir": "osx-64",
+  "timestamp": 1666789085284,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/brotli-1.0.9-hb7f2c08_8.tar.bz2",
+  "version": "1.0.9"
+}

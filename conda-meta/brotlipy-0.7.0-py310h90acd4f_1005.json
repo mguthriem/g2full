@@ -1,0 +1,52 @@
+{
+  "build": "py310h90acd4f_1005",
+  "build_number": 1005,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.0.0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/brotlipy-0.7.0-py310h90acd4f_1005",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/brotli/__init__.py",
+    "lib/python3.10/site-packages/brotli/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/brotli/__pycache__/brotli.cpython-310.pyc",
+    "lib/python3.10/site-packages/brotli/__pycache__/build.cpython-310.pyc",
+    "lib/python3.10/site-packages/brotli/_brotli.abi3.so",
+    "lib/python3.10/site-packages/brotli/brotli.py",
+    "lib/python3.10/site-packages/brotli/build.py",
+    "lib/python3.10/site-packages/brotlipy-0.7.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/brotlipy-0.7.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/brotlipy-0.7.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/brotlipy-0.7.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/brotlipy-0.7.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/brotlipy-0.7.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/brotlipy-0.7.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/brotlipy-0.7.0.dist-info/top_level.txt"
+  ],
+  "fn": "brotlipy-0.7.0-py310h90acd4f_1005.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/brotlipy-0.7.0-py310h90acd4f_1005",
+    "type": 1
+  },
+  "md5": "63accc45f2b9ae1dad4db9cdfaa903b4",
+  "name": "brotlipy",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/brotlipy-0.7.0-py310h90acd4f_1005.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "brotlipy==0.7.0=py310h90acd4f_1005",
+  "sha256": "de6e5b17631ef35c6acaeec0ba0143d0e77e0970704f0a3e947a5d59364f3c4a",
+  "size": 376381,
+  "subdir": "osx-64",
+  "timestamp": 1666765194794,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/brotlipy-0.7.0-py310h90acd4f_1005.tar.bz2",
+  "version": "0.7.0"
+}

@@ -1,0 +1,47 @@
+{
+  "build": "hb7f2c08_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libbrotlicommon-1.0.9-hb7f2c08_8",
+  "features": "",
+  "files": [
+    "lib/libbrotlicommon.1.0.9.dylib",
+    "lib/libbrotlicommon.1.dylib",
+    "lib/libbrotlicommon.dylib",
+    "lib/pkgconfig/libbrotlicommon.pc"
+  ],
+  "fn": "libbrotlicommon-1.0.9-hb7f2c08_8.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libbrotlicommon-1.0.9-hb7f2c08_8",
+    "type": 1
+  },
+  "md5": "37157d273eaf3bc7d6862104161d9ec9",
+  "name": "libbrotlicommon",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libbrotlicommon-1.0.9-hb7f2c08_8.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/libbrotlicommon.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/brotli-split_1666788492850/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a45d34ba148fa48deac5dc0307f67171986cd58af7873134e406c7337d939c1a",
+        "sha256_in_prefix": "2a9e4d159f09827eca257496605fb81c6c8c98077babb83b90f0324c1e192554",
+        "size_in_bytes": 760
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libbrotlicommon==1.0.9=hb7f2c08_8",
+  "sha256": "c983101653f5bffea605c4423d84fd5ca28ee36b290cdb6207ec246e293f7d94",
+  "size": 65557,
+  "subdir": "osx-64",
+  "timestamp": 1666788942461,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libbrotlicommon-1.0.9-hb7f2c08_8.tar.bz2",
+  "version": "1.0.9"
+}

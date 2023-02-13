@@ -1,0 +1,95 @@
+{
+  "build": "h775f41a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "libwebp 1.2.4"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libwebp-base-1.2.4-h775f41a_0",
+  "features": "",
+  "files": [
+    "include/webp/decode.h",
+    "include/webp/demux.h",
+    "include/webp/encode.h",
+    "include/webp/mux.h",
+    "include/webp/mux_types.h",
+    "include/webp/types.h",
+    "lib/libwebp.7.dylib",
+    "lib/libwebp.dylib",
+    "lib/libwebpdecoder.3.dylib",
+    "lib/libwebpdecoder.dylib",
+    "lib/libwebpdemux.2.dylib",
+    "lib/libwebpdemux.dylib",
+    "lib/libwebpmux.3.dylib",
+    "lib/libwebpmux.dylib",
+    "lib/pkgconfig/libwebp.pc",
+    "lib/pkgconfig/libwebpdecoder.pc",
+    "lib/pkgconfig/libwebpdemux.pc",
+    "lib/pkgconfig/libwebpmux.pc",
+    "share/man/man1/cwebp.1",
+    "share/man/man1/dwebp.1",
+    "share/man/man1/img2webp.1",
+    "share/man/man1/webpinfo.1",
+    "share/man/man1/webpmux.1"
+  ],
+  "fn": "libwebp-base-1.2.4-h775f41a_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libwebp-base-1.2.4-h775f41a_0",
+    "type": 1
+  },
+  "md5": "28807bef802a354f9c164e7ab242c5cb",
+  "name": "libwebp-base",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libwebp-base-1.2.4-h775f41a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/libwebp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libwebp-base_1659983972535/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "119eb3525dbe26a57a73004efe51336c02734dc76da5059c70c93a1c0fcbd5b7",
+        "sha256_in_prefix": "513bcc010f079a5ade70ce6c3cdcd2fd790f0d01c88d113eafcdb3c1af31d75c",
+        "size_in_bytes": 512
+      },
+      {
+        "_path": "lib/pkgconfig/libwebpdecoder.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libwebp-base_1659983972535/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "76939a38ce5ed8096f6e45fe047ede9f78a67f6df8e202efffa8497c93350cfc",
+        "sha256_in_prefix": "86c406e950a8cc6b5bd44268c3c238c6f40c1909c3581447861868e8afe561e0",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "lib/pkgconfig/libwebpdemux.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libwebp-base_1659983972535/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5d45ff4486cb23e193ba89641a9288ac4401d39fcbb32f9fd755b9be5a11a02b",
+        "sha256_in_prefix": "d17935a356cd07fa36dab61b95f181c5dbe24a25e07a3e941f979b478fa85b02",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "lib/pkgconfig/libwebpmux.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libwebp-base_1659983972535/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "2ed118ab382fb80d1e7741474a230f5901f84d0e194b14e112136376c6204b13",
+        "sha256_in_prefix": "9726186ced6eeede31e451e0f7e208dc914c8eebc73e5904f8878dda67cc4dd5",
+        "size_in_bytes": 543
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libwebp-base==1.2.4=h775f41a_0",
+  "sha256": "ca3eb817054ac2942802b6b51dc671ab2af6564da329bebcb2538cdb31b59fa1",
+  "size": 393830,
+  "subdir": "osx-64",
+  "timestamp": 1659984180146,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libwebp-base-1.2.4-h775f41a_0.tar.bz2",
+  "version": "1.2.4"
+}

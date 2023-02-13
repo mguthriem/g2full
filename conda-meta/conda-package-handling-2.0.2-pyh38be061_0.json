@@ -1,0 +1,120 @@
+{
+  "build": "pyh38be061_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "conda-package-streaming >=0.7.0",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/conda-package-handling-2.0.2-pyh38be061_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/AUTHORS.md",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/LICENSE",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/conda_package_handling-2.0.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/conda_package_handling/__init__.py",
+    "lib/python3.10/site-packages/conda_package_handling/__main__.py",
+    "lib/python3.10/site-packages/conda_package_handling/api.py",
+    "lib/python3.10/site-packages/conda_package_handling/cli.py",
+    "lib/python3.10/site-packages/conda_package_handling/conda_fmt.py",
+    "lib/python3.10/site-packages/conda_package_handling/exceptions.py",
+    "lib/python3.10/site-packages/conda_package_handling/interface.py",
+    "lib/python3.10/site-packages/conda_package_handling/streaming.py",
+    "lib/python3.10/site-packages/conda_package_handling/tarball.py",
+    "lib/python3.10/site-packages/conda_package_handling/utils.py",
+    "lib/python3.10/site-packages/conda_package_handling/validate.py",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/conda_fmt.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/interface.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/streaming.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/tarball.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/conda_package_handling/__pycache__/validate.cpython-310.pyc",
+    "bin/cph"
+  ],
+  "fn": "conda-package-handling-2.0.2-pyh38be061_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/conda-package-handling-2.0.2-pyh38be061_0",
+    "type": 1
+  },
+  "md5": "44800e9bd13143292097c65e57323038",
+  "name": "conda-package-handling",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/conda-package-handling-2.0.2-pyh38be061_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/api.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/cli.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/conda_fmt.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/interface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/streaming.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/tarball.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/conda_package_handling/__pycache__/validate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/cph",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-package-handling==2.0.2=pyh38be061_0",
+  "sha256": "c453b2a648e7a059f26326d476069cf81627c9a3fa12da4ab22eb39e7bfdc095",
+  "size": 253228,
+  "subdir": "noarch",
+  "timestamp": 1669907151926,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/conda-package-handling-2.0.2-pyh38be061_0.conda",
+  "version": "2.0.2"
+}

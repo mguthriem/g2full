@@ -1,0 +1,48 @@
+{
+  "build": "haf1e3a3_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libev-4.33-haf1e3a3_1",
+  "features": "",
+  "files": [
+    "include/ev++.h",
+    "include/ev.h",
+    "lib/libev.4.dylib",
+    "lib/libev.dylib",
+    "share/man/man3/ev.3"
+  ],
+  "fn": "libev-4.33-haf1e3a3_1.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libev-4.33-haf1e3a3_1",
+    "type": 1
+  },
+  "md5": "79dc2be110b2a3d1e97ec21f691c50ad",
+  "name": "libev",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libev-4.33-haf1e3a3_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libev.4.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libev_1598868015544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "e2b12245f1c141a0e9390ac2ff1d18ed54a8156518f350d51ff0d5d7adaba211",
+        "sha256_in_prefix": "f9eccca5b59f8fa942cf5213e49ae0889e7d070fa4b09c0a525d92826a131c82",
+        "size_in_bytes": 49328
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libev==4.33=haf1e3a3_1",
+  "sha256": "c4154d424431898d84d6afb8b32e3ba749fe5d270d322bb0af74571a3cb09c6b",
+  "size": 101424,
+  "subdir": "osx-64",
+  "timestamp": 1598868359024,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libev-4.33-haf1e3a3_1.tar.bz2",
+  "version": "4.33"
+}

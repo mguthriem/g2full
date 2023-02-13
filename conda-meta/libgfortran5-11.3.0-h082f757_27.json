@@ -1,0 +1,55 @@
+{
+  "build": "h082f757_27",
+  "build_number": 27,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "libgfortran 5.0.0 *_27"
+  ],
+  "depends": [
+    "llvm-openmp >=8.0.0"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libgfortran5-11.3.0-h082f757_27",
+  "features": "",
+  "files": [
+    "lib/libgcc_s.1.1.dylib",
+    "lib/libgcc_s.1.dylib",
+    "lib/libgfortran.5.dylib",
+    "lib/libgfortran.dylib",
+    "lib/libgomp.1.dylib",
+    "lib/libgomp.dylib",
+    "lib/libquadmath.0.dylib",
+    "lib/libquadmath.dylib"
+  ],
+  "fn": "libgfortran5-11.3.0-h082f757_27.conda",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libgfortran5-11.3.0-h082f757_27",
+    "type": 1
+  },
+  "md5": "f7602714b2be91be36f00fb75c45cb14",
+  "name": "libgfortran5",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libgfortran5-11.3.0-h082f757_27.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgcc_s.1.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/gfortran_impl_osx-64_1671140465215/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "15055e487a9fc58cf5bd8c43e52849e383a93a8fc26ea2536fc6a55d519502c4",
+        "sha256_in_prefix": "fc34521b7cc39c3b32d2fb069dc2099c8df59c03f2029805c820227b26ea99ab",
+        "size_in_bytes": 10840
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "libgfortran5==11.3.0=h082f757_27",
+  "sha256": "78173905004e7d13501db619391b113f3b96f2c78ba3ed0273152d1340d6a818",
+  "size": 1496961,
+  "subdir": "osx-64",
+  "timestamp": 1671143727795,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libgfortran5-11.3.0-h082f757_27.conda",
+  "version": "11.3.0"
+}

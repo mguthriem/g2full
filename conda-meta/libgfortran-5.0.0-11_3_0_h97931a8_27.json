@@ -1,0 +1,34 @@
+{
+  "build": "11_3_0_h97931a8_27",
+  "build_number": 27,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libgfortran5"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libgfortran-5.0.0-11_3_0_h97931a8_27",
+  "features": "",
+  "files": [],
+  "fn": "libgfortran-5.0.0-11_3_0_h97931a8_27.conda",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libgfortran-5.0.0-11_3_0_h97931a8_27",
+    "type": 1
+  },
+  "md5": "7d25335e67256924aa04de681e68e807",
+  "name": "libgfortran",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libgfortran-5.0.0-11_3_0_h97931a8_27.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "libgfortran==5.0.0=11_3_0_h97931a8_27",
+  "sha256": "834f1547a41fe53a23563b7702eb83b7156129a88460b5de701e8e019f7933a1",
+  "size": 146744,
+  "subdir": "osx-64",
+  "timestamp": 1671143829978,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libgfortran-5.0.0-11_3_0_h97931a8_27.conda",
+  "version": "5.0.0"
+}

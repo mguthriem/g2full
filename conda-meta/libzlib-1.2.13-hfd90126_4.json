@@ -1,0 +1,37 @@
+{
+  "build": "hfd90126_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "zlib 1.2.13 *_4"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libzlib-1.2.13-hfd90126_4",
+  "features": "",
+  "files": [
+    "lib/libz.1.2.13.dylib",
+    "lib/libz.1.dylib"
+  ],
+  "fn": "libzlib-1.2.13-hfd90126_4.tar.bz2",
+  "license": "Zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libzlib-1.2.13-hfd90126_4",
+    "type": 1
+  },
+  "md5": "35eb3fce8d51ed3c1fd4122bad48250b",
+  "name": "libzlib",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libzlib-1.2.13-hfd90126_4.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "libzlib==1.2.13=hfd90126_4",
+  "sha256": "0d954350222cc12666a1f4852dbc9bcf4904d8e467d29505f2b04ded6518f890",
+  "size": 65850,
+  "subdir": "osx-64",
+  "timestamp": 1665759846257,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libzlib-1.2.13-hfd90126_4.tar.bz2",
+  "version": "1.2.13"
+}

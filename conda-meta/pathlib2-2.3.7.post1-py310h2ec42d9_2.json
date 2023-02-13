@@ -1,0 +1,47 @@
+{
+  "build": "py310h2ec42d9_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "six >=1.13.0"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pathlib2-2.3.7.post1-py310h2ec42d9_2",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/LICENSE.rst",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/METADATA",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/RECORD",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pathlib2-2.3.7.post1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pathlib2/__init__.py",
+    "lib/python3.10/site-packages/pathlib2/__pycache__/__init__.cpython-310.pyc"
+  ],
+  "fn": "pathlib2-2.3.7.post1-py310h2ec42d9_2.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pathlib2-2.3.7.post1-py310h2ec42d9_2",
+    "type": 1
+  },
+  "md5": "0538d2f63891d70321d78629756d8c22",
+  "name": "pathlib2",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pathlib2-2.3.7.post1-py310h2ec42d9_2.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "pathlib2==2.3.7.post1=py310h2ec42d9_2",
+  "sha256": "91c16f888bc1c2bc9ddddb01eb9ec0b436478026f2032fa5f8d5b3bf3741ace6",
+  "size": 38157,
+  "subdir": "osx-64",
+  "timestamp": 1666851726364,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/pathlib2-2.3.7.post1-py310h2ec42d9_2.tar.bz2",
+  "version": "2.3.7.post1"
+}

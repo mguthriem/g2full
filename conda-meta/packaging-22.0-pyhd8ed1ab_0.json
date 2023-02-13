@@ -1,0 +1,132 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/packaging-22.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/LICENSE.APACHE",
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/LICENSE.BSD",
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/packaging-22.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/packaging/__about__.py",
+    "lib/python3.10/site-packages/packaging/__init__.py",
+    "lib/python3.10/site-packages/packaging/_elffile.py",
+    "lib/python3.10/site-packages/packaging/_manylinux.py",
+    "lib/python3.10/site-packages/packaging/_musllinux.py",
+    "lib/python3.10/site-packages/packaging/_parser.py",
+    "lib/python3.10/site-packages/packaging/_structures.py",
+    "lib/python3.10/site-packages/packaging/_tokenizer.py",
+    "lib/python3.10/site-packages/packaging/markers.py",
+    "lib/python3.10/site-packages/packaging/py.typed",
+    "lib/python3.10/site-packages/packaging/requirements.py",
+    "lib/python3.10/site-packages/packaging/specifiers.py",
+    "lib/python3.10/site-packages/packaging/tags.py",
+    "lib/python3.10/site-packages/packaging/utils.py",
+    "lib/python3.10/site-packages/packaging/version.py",
+    "lib/python3.10/site-packages/packaging/__pycache__/__about__.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/_elffile.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/_manylinux.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/_musllinux.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/_parser.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/_structures.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/_tokenizer.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/markers.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/requirements.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/specifiers.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/tags.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/packaging/__pycache__/version.cpython-310.pyc"
+  ],
+  "fn": "packaging-22.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/packaging-22.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0e8e1bd93998978fc3125522266d12db",
+  "name": "packaging",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/packaging-22.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/__about__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/_elffile.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/_manylinux.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/_musllinux.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/_parser.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/_structures.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/_tokenizer.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/markers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/requirements.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/specifiers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/tags.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/packaging/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "packaging==22.0=pyhd8ed1ab_0",
+  "sha256": "163f26e55246c506a75551ca01f35c7d4d533aee6db5c4cf2d598ae253e956b8",
+  "size": 40494,
+  "subdir": "noarch",
+  "timestamp": 1670530992864,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/packaging-22.0-pyhd8ed1ab_0.conda",
+  "version": "22.0"
+}

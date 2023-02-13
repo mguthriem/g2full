@@ -1,0 +1,112 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pyparsing-3.0.9-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/LICENSE",
+    "lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/METADATA",
+    "lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/RECORD",
+    "lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/pyparsing/__init__.py",
+    "lib/python3.10/site-packages/pyparsing/actions.py",
+    "lib/python3.10/site-packages/pyparsing/common.py",
+    "lib/python3.10/site-packages/pyparsing/core.py",
+    "lib/python3.10/site-packages/pyparsing/diagram/__init__.py",
+    "lib/python3.10/site-packages/pyparsing/exceptions.py",
+    "lib/python3.10/site-packages/pyparsing/helpers.py",
+    "lib/python3.10/site-packages/pyparsing/py.typed",
+    "lib/python3.10/site-packages/pyparsing/results.py",
+    "lib/python3.10/site-packages/pyparsing/testing.py",
+    "lib/python3.10/site-packages/pyparsing/unicode.py",
+    "lib/python3.10/site-packages/pyparsing/util.py",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/actions.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/common.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/diagram/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/exceptions.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/helpers.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/results.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/testing.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/unicode.cpython-310.pyc",
+    "lib/python3.10/site-packages/pyparsing/__pycache__/util.cpython-310.pyc"
+  ],
+  "fn": "pyparsing-3.0.9-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pyparsing-3.0.9-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "e8fbc1b54b25f4b08281467bc13b70cc",
+  "name": "pyparsing",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/pyparsing-3.0.9-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/actions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/core.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/diagram/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/exceptions.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/helpers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/results.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/testing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/unicode.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pyparsing/__pycache__/util.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pyparsing==3.0.9=pyhd8ed1ab_0",
+  "sha256": "4acc7151cef5920d130f2e0a7615559cce8bfb037aeecb14d4d359ae3d9bc51b",
+  "size": 81321,
+  "subdir": "noarch",
+  "timestamp": 1652235496915,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.0.9-pyhd8ed1ab_0.tar.bz2",
+  "version": "3.0.9"
+}

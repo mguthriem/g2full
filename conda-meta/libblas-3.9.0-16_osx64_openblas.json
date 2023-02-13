@@ -1,0 +1,43 @@
+{
+  "build": "16_osx64_openblas",
+  "build_number": 16,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "liblapack 3.9.0 16_osx64_openblas",
+    "libcblas 3.9.0 16_osx64_openblas",
+    "liblapacke 3.9.0 16_osx64_openblas",
+    "blas * openblas"
+  ],
+  "depends": [
+    "libopenblas >=0.3.21,<0.3.22.0a0",
+    "libopenblas >=0.3.21,<1.0a0"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libblas-3.9.0-16_osx64_openblas",
+  "features": "",
+  "files": [
+    "lib/libblas.3.dylib",
+    "lib/libblas.dylib"
+  ],
+  "fn": "libblas-3.9.0-16_osx64_openblas.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libblas-3.9.0-16_osx64_openblas",
+    "type": 1
+  },
+  "md5": "644d63e9379867490b67bace400b2a0f",
+  "name": "libblas",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/libblas-3.9.0-16_osx64_openblas.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "libblas==3.9.0=16_osx64_openblas",
+  "sha256": "7678dab49b552957ddfa1fc5ddf3a09963c788bca81adb0cd9626f6385e205c5",
+  "size": 12968,
+  "subdir": "osx-64",
+  "timestamp": 1660094849249,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libblas-3.9.0-16_osx64_openblas.tar.bz2",
+  "version": "3.9.0"
+}

@@ -1,0 +1,50 @@
+{
+  "build": "hb486fe8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=13.0.1"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/lerc-4.0.0-hb486fe8_0",
+  "features": "",
+  "files": [
+    "include/Lerc_c_api.h",
+    "include/Lerc_types.h",
+    "lib/libLerc.4.dylib",
+    "lib/libLerc.dylib",
+    "lib/pkgconfig/Lerc.pc"
+  ],
+  "fn": "lerc-4.0.0-hb486fe8_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/lerc-4.0.0-hb486fe8_0",
+    "type": 1
+  },
+  "md5": "f9d6a4c82889d5ecedec1d90eb673c55",
+  "name": "lerc",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/lerc-4.0.0-hb486fe8_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/Lerc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/lerc_1657977365129/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "e1e5270c8b7e0e5d51a8e138775a1a0f76ae4a872db4de33a9b4e205624ea7b6",
+        "sha256_in_prefix": "b7a689d82c386ffd3efd2dd08adaedeab38d141bd109e6381daa7709c6b6b208",
+        "size_in_bytes": 526
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "lerc==4.0.0=hb486fe8_0",
+  "sha256": "e41790fc0f4089726369b3c7f813117bbc14b533e0ed8b94cf75aba252e82497",
+  "size": 290319,
+  "subdir": "osx-64",
+  "timestamp": 1657977526749,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/lerc-4.0.0-hb486fe8_0.tar.bz2",
+  "version": "4.0.0"
+}

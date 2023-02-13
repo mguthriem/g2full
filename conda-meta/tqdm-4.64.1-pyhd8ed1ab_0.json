@@ -1,0 +1,247 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "colorama",
+    "python >=2.7"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/tqdm-4.64.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/LICENCE",
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/tqdm-4.64.1.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/tqdm/__init__.py",
+    "lib/python3.10/site-packages/tqdm/__main__.py",
+    "lib/python3.10/site-packages/tqdm/_dist_ver.py",
+    "lib/python3.10/site-packages/tqdm/_main.py",
+    "lib/python3.10/site-packages/tqdm/_monitor.py",
+    "lib/python3.10/site-packages/tqdm/_tqdm.py",
+    "lib/python3.10/site-packages/tqdm/_tqdm_gui.py",
+    "lib/python3.10/site-packages/tqdm/_tqdm_notebook.py",
+    "lib/python3.10/site-packages/tqdm/_tqdm_pandas.py",
+    "lib/python3.10/site-packages/tqdm/_utils.py",
+    "lib/python3.10/site-packages/tqdm/asyncio.py",
+    "lib/python3.10/site-packages/tqdm/auto.py",
+    "lib/python3.10/site-packages/tqdm/autonotebook.py",
+    "lib/python3.10/site-packages/tqdm/cli.py",
+    "lib/python3.10/site-packages/tqdm/completion.sh",
+    "lib/python3.10/site-packages/tqdm/contrib/__init__.py",
+    "lib/python3.10/site-packages/tqdm/contrib/bells.py",
+    "lib/python3.10/site-packages/tqdm/contrib/concurrent.py",
+    "lib/python3.10/site-packages/tqdm/contrib/discord.py",
+    "lib/python3.10/site-packages/tqdm/contrib/itertools.py",
+    "lib/python3.10/site-packages/tqdm/contrib/logging.py",
+    "lib/python3.10/site-packages/tqdm/contrib/slack.py",
+    "lib/python3.10/site-packages/tqdm/contrib/telegram.py",
+    "lib/python3.10/site-packages/tqdm/contrib/utils_worker.py",
+    "lib/python3.10/site-packages/tqdm/dask.py",
+    "lib/python3.10/site-packages/tqdm/gui.py",
+    "lib/python3.10/site-packages/tqdm/keras.py",
+    "lib/python3.10/site-packages/tqdm/notebook.py",
+    "lib/python3.10/site-packages/tqdm/rich.py",
+    "lib/python3.10/site-packages/tqdm/std.py",
+    "lib/python3.10/site-packages/tqdm/tk.py",
+    "lib/python3.10/site-packages/tqdm/tqdm.1",
+    "lib/python3.10/site-packages/tqdm/utils.py",
+    "lib/python3.10/site-packages/tqdm/version.py",
+    "lib/python3.10/site-packages/tqdm/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/_dist_ver.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/_main.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/_monitor.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/_tqdm.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/_tqdm_gui.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/_tqdm_notebook.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/_tqdm_pandas.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/_utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/asyncio.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/auto.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/autonotebook.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/bells.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/concurrent.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/discord.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/itertools.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/logging.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/slack.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/telegram.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/contrib/__pycache__/utils_worker.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/dask.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/gui.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/keras.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/notebook.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/rich.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/std.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/tk.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/tqdm/__pycache__/version.cpython-310.pyc",
+    "bin/tqdm"
+  ],
+  "fn": "tqdm-4.64.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "MPL-2.0 or MIT",
+  "license_family": "MOZILLA",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/tqdm-4.64.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "5526ff3f88f9db87bb0924b9ce575345",
+  "name": "tqdm",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/tqdm-4.64.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/_dist_ver.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/_main.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/_monitor.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/_tqdm.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/_tqdm_gui.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/_tqdm_notebook.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/_tqdm_pandas.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/asyncio.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/auto.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/autonotebook.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/cli.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/bells.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/concurrent.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/discord.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/itertools.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/logging.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/slack.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/telegram.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/contrib/__pycache__/utils_worker.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/dask.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/gui.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/keras.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/notebook.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/rich.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/std.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/tk.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tqdm/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/tqdm",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tqdm==4.64.1=pyhd8ed1ab_0",
+  "sha256": "d196e0c3a057a840147fa23d3d43eafd6b63258846bdafe8ac17f70b534f91bd",
+  "size": 83474,
+  "subdir": "noarch",
+  "timestamp": 1662214623822,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/tqdm-4.64.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "4.64.1"
+}

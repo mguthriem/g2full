@@ -1,0 +1,41 @@
+{
+  "build": "h61d9ccf_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "openmp 15.0.6|15.0.6.*"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/llvm-openmp-15.0.6-h61d9ccf_0",
+  "features": "",
+  "files": [
+    "include/omp-tools.h",
+    "include/omp.h",
+    "include/ompt.h",
+    "lib/clang/15.0.6/include/omp.h",
+    "lib/libiomp5.dylib",
+    "lib/libomp.dylib"
+  ],
+  "fn": "llvm-openmp-15.0.6-h61d9ccf_0.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/llvm-openmp-15.0.6-h61d9ccf_0",
+    "type": 1
+  },
+  "md5": "3a900993deb973d86d98361ceef49ab3",
+  "name": "llvm-openmp",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/llvm-openmp-15.0.6-h61d9ccf_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "llvm-openmp==15.0.6=h61d9ccf_0",
+  "sha256": "d8b65c6bd88a6508bc0ed3c03edfdf4c05d55024b2bf43dd5f61bec69f3bb87e",
+  "size": 292997,
+  "subdir": "osx-64",
+  "timestamp": 1669801749154,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/llvm-openmp-15.0.6-h61d9ccf_0.conda",
+  "version": "15.0.6"
+}

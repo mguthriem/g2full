@@ -1,0 +1,50 @@
+{
+  "build": "py310ha23aa8a_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.4",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/kiwisolver-1.4.4-py310ha23aa8a_1",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/kiwisolver-1.4.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/kiwisolver-1.4.4.dist-info/LICENSE",
+    "lib/python3.10/site-packages/kiwisolver-1.4.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/kiwisolver-1.4.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/kiwisolver-1.4.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/kiwisolver-1.4.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/kiwisolver-1.4.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/kiwisolver-1.4.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/kiwisolver/__init__.py",
+    "lib/python3.10/site-packages/kiwisolver/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/kiwisolver/_cext.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/kiwisolver/_cext.pyi",
+    "lib/python3.10/site-packages/kiwisolver/py.typed"
+  ],
+  "fn": "kiwisolver-1.4.4-py310ha23aa8a_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/kiwisolver-1.4.4-py310ha23aa8a_1",
+    "type": 1
+  },
+  "md5": "cc358fb878ac593c60cea08b28ac7423",
+  "name": "kiwisolver",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/kiwisolver-1.4.4-py310ha23aa8a_1.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "kiwisolver==1.4.4=py310ha23aa8a_1",
+  "sha256": "6b48d27a14c68978d7bfd4e676a366db64264edd7d7bb5545e9c54aee2a8aea4",
+  "size": 64677,
+  "subdir": "osx-64",
+  "timestamp": 1666806230809,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/kiwisolver-1.4.4-py310ha23aa8a_1.tar.bz2",
+  "version": "1.4.4"
+}

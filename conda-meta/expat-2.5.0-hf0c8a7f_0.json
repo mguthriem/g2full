@@ -1,0 +1,60 @@
+{
+  "build": "hf0c8a7f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.4"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/expat-2.5.0-hf0c8a7f_0",
+  "features": "",
+  "files": [
+    "bin/xmlwf",
+    "include/expat.h",
+    "include/expat_config.h",
+    "include/expat_external.h",
+    "lib/cmake/expat-2.5.0/expat-config-version.cmake",
+    "lib/cmake/expat-2.5.0/expat-config.cmake",
+    "lib/cmake/expat-2.5.0/expat-noconfig.cmake",
+    "lib/cmake/expat-2.5.0/expat.cmake",
+    "lib/libexpat.1.8.10.dylib",
+    "lib/libexpat.1.dylib",
+    "lib/libexpat.a",
+    "lib/libexpat.dylib",
+    "lib/pkgconfig/expat.pc",
+    "share/doc/expat/AUTHORS",
+    "share/doc/expat/changelog"
+  ],
+  "fn": "expat-2.5.0-hf0c8a7f_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/expat-2.5.0-hf0c8a7f_0",
+    "type": 1
+  },
+  "md5": "7648a729fc8b7272596e90b0ab0a3e98",
+  "name": "expat",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/expat-2.5.0-hf0c8a7f_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/expat.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/expat_1666724545282/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "6c39a5af7c9152bda573acdc12f8f430461c798e67c8adfc03b48909edd224c0",
+        "sha256_in_prefix": "5d133ca15e012d2b1f67134b94fe8c04f53e0840fa9e23c11eb52eb8a9efd934",
+        "size_in_bytes": 496
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "expat==2.5.0=hf0c8a7f_0",
+  "sha256": "cd1fceb9e0ed4175044bce7aceb7698bcdfd452da44941fc66aee900e0fce997",
+  "size": 153355,
+  "subdir": "osx-64",
+  "timestamp": 1666724894264,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/expat-2.5.0-hf0c8a7f_0.tar.bz2",
+  "version": "2.5.0"
+}

@@ -1,0 +1,152 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/Users/66j/Documents/ORNL/code/g2full/pkgs/wheel-0.38.4-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/wheel-0.38.4-py3.11.egg-info/PKG-INFO",
+    "lib/python3.10/site-packages/wheel-0.38.4-py3.11.egg-info/SOURCES.txt",
+    "lib/python3.10/site-packages/wheel-0.38.4-py3.11.egg-info/dependency_links.txt",
+    "lib/python3.10/site-packages/wheel-0.38.4-py3.11.egg-info/entry_points.txt",
+    "lib/python3.10/site-packages/wheel-0.38.4-py3.11.egg-info/not-zip-safe",
+    "lib/python3.10/site-packages/wheel-0.38.4-py3.11.egg-info/requires.txt",
+    "lib/python3.10/site-packages/wheel-0.38.4-py3.11.egg-info/top_level.txt",
+    "lib/python3.10/site-packages/wheel/__init__.py",
+    "lib/python3.10/site-packages/wheel/__main__.py",
+    "lib/python3.10/site-packages/wheel/_setuptools_logging.py",
+    "lib/python3.10/site-packages/wheel/bdist_wheel.py",
+    "lib/python3.10/site-packages/wheel/cli/__init__.py",
+    "lib/python3.10/site-packages/wheel/cli/convert.py",
+    "lib/python3.10/site-packages/wheel/cli/pack.py",
+    "lib/python3.10/site-packages/wheel/cli/unpack.py",
+    "lib/python3.10/site-packages/wheel/macosx_libfile.py",
+    "lib/python3.10/site-packages/wheel/metadata.py",
+    "lib/python3.10/site-packages/wheel/util.py",
+    "lib/python3.10/site-packages/wheel/vendored/__init__.py",
+    "lib/python3.10/site-packages/wheel/vendored/packaging/__init__.py",
+    "lib/python3.10/site-packages/wheel/vendored/packaging/_manylinux.py",
+    "lib/python3.10/site-packages/wheel/vendored/packaging/_musllinux.py",
+    "lib/python3.10/site-packages/wheel/vendored/packaging/tags.py",
+    "lib/python3.10/site-packages/wheel/wheelfile.py",
+    "lib/python3.10/site-packages/wheel/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/__pycache__/__main__.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/__pycache__/_setuptools_logging.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/__pycache__/bdist_wheel.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/cli/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/cli/__pycache__/convert.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/cli/__pycache__/pack.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/cli/__pycache__/unpack.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/__pycache__/macosx_libfile.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/__pycache__/metadata.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/__pycache__/util.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/vendored/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/vendored/packaging/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/vendored/packaging/__pycache__/_manylinux.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/vendored/packaging/__pycache__/_musllinux.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/vendored/packaging/__pycache__/tags.cpython-310.pyc",
+    "lib/python3.10/site-packages/wheel/__pycache__/wheelfile.cpython-310.pyc",
+    "bin/wheel"
+  ],
+  "fn": "wheel-0.38.4-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/66j/Documents/ORNL/code/g2full/pkgs/wheel-0.38.4-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c829cfb8cb826acb9de0ac1a2df0a940",
+  "name": "wheel",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/66j/Documents/ORNL/code/g2full/pkgs/wheel-0.38.4-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/wheel/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/__pycache__/__main__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/__pycache__/_setuptools_logging.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/__pycache__/bdist_wheel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/cli/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/cli/__pycache__/convert.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/cli/__pycache__/pack.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/cli/__pycache__/unpack.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/__pycache__/macosx_libfile.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/__pycache__/metadata.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/__pycache__/util.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/vendored/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/vendored/packaging/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/vendored/packaging/__pycache__/_manylinux.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/vendored/packaging/__pycache__/_musllinux.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/vendored/packaging/__pycache__/tags.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/wheel/__pycache__/wheelfile.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/wheel",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "wheel==0.38.4=pyhd8ed1ab_0",
+  "sha256": "bd4f11ff075ff251ade9f57686f31473e25be46ab282d9603f551401250f9f44",
+  "size": 32521,
+  "subdir": "noarch",
+  "timestamp": 1668051714265,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/wheel-0.38.4-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.38.4"
+}

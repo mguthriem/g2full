@@ -2381,6 +2381,137 @@ def UpdateInstrumentGrid(G2frame,data):
         updateData(insVal,insRef)
         wx.CallAfter(UpdateInstrumentGrid,G2frame,data)
 
+    def OnShowMult(event):
+        'Select multiple histograms of same type as current'
+        def onPrmPlot(event):
+            'Plot multiple inst prm values vs 2Theta'
+            xvals = [histdict[h]['2-theta'][1] for h in histnames]
+            XY = []
+            keys = ''
+            for k in plotYsel:
+                if not plotYsel[k]: continue
+                yvals = [histdict[h][k][1] for h in histnames]
+                if keys: keys += ', '
+                keys += k
+                XY.append((xvals,yvals))
+            if not XY: return
+            G2plt.PlotXY(G2frame,XY,labelX='2Theta',labelY=keys,Title='Parameter values',newPlot=True)
+
+        histoList,histIdList = G2frame.GetHistogramNamesID(['PWDR',])
+        hlist = GetHistsLikeSelected(G2frame)
+        dlg = G2G.G2MultiChoiceDialog(G2frame,'Select histograms to show of type '+data['Type'][1],
+                                     'Select histograms',hlist)
+        dlg.CenterOnParent()
+        try:
+            if dlg.ShowModal() == wx.ID_OK:
+                selected = dlg.GetSelections()
+            else:
+                return
+        finally:
+            dlg.Destroy()
+            
+        histnames = [G2frame.GPXtree.GetItemText(G2frame.PatternId)]
+        histdict = {G2frame.GPXtree.GetItemText(G2frame.PatternId): data}
+
+        for i in selected:
+            h = hlist[i]
+            if h not in histoList: 
+                print('hist from GetHistsLikeSelected not in GetHistogramNamesID',h)
+                return
+            hid = histIdList[h]
+            inst,inst2 = G2frame.GPXtree.GetItemPyData(G2gd.GetGPXtreeItemId(G2frame,hid, 'Instrument Parameters'))
+            #print(h,inst['2-theta'])
+            histnames.append(h)
+            histdict[h] = inst
+            
+        #histdict[h] contains dictionary inst with inst parameters for histogram h
+            
+        # Create a wx.Dialogue. Arguments are:
+            #the parent: G2frame,
+            #an ID,
+            #A title,
+            #A style
+        dlg = wx.Dialog(G2frame,wx.ID_ANY,'Instrument Parameters',
+            style=wx.DEFAULT_DIALOG_STYLE|wx.RESIZE_BORDER)
+        # Create a column container
+        mainSizer = wx.BoxSizer(wx.VERTICAL)
+        # Insert a wx.StaticText into the container using the .Add method.
+        mainSizer.Add(wx.StaticText(dlg,wx.ID_ANY,'Instrument parameters for selected histograms'))
+        
+        # Create a grid with object "FlexGridSizer" of  
+        #fgs = wx.FlexGridSizer(0,2*len(histnames)+1,0,0)
+        fgs = wx.FlexGridSizer(0,len(histnames)+2,0,0)
+        fgs.Add(wx.StaticText(dlg,wx.ID_ANY,'Histogram  '),0,WACV)
+        # fgs.Add((-1,-1))
+        
+        
+        for h in histnames:
+            # text = h
+            # frm = wx.Frame
+            # fgs.Add()
+            fgs.Add(wx.StaticText(dlg,wx.ID_ANY,h[5:20]+'   '),0,WACV)
+            #fgs.Add(G2G.ScrolledStaticText(dlg,label=h[5:],dots=False,lbllen=20))
+
+        fgs.Add(wx.StaticText(dlg,wx.ID_ANY,'plot\nversus\nangle? '))
+  
+        fgs.Add(wx.StaticText(dlg,wx.ID_ANY,'2-theta'),0,WACV)
+        
+        for h in histnames:            
+            fgs.Add(wx.StaticText(dlg,wx.ID_ANY,str(histdict[h]['2-theta'][1])),
+                0,wx.ALIGN_CENTER|WACV,0)
+            
+        fgs.Add((-1,-1))
+
+        Items = []
+        if 'C' in data['Type'][1]:               #constant wavelength
+            if 'Lam1' in data:
+                Items = ['Lam1','Lam2','I(L2)/I(L1)']
+            else:
+                Items = ['Lam','Zero','Polariz.']
+            Items += ['U','V','W','X','Y','Z','SH/L','Azimuth']
+        elif 'B' in data['Type'][1]:
+            print('not implemented')
+            pass      
+        elif 'E' in data['Type'][1]:
+            print('not implemented')
+            pass
+        elif 'T' in data['Type'][1]:
+            Items = ['difC','difA','difB','Zero','alpha','beta-0','beta-1','beta-q','sig-0','sig-1','sig-2','sig-q','X','Y','Z']
+        for k in Items:
+            plotYsel[k] = plotYsel.get(k,False)
+            #if not l: l = k
+            l = k
+            fgs.Add(wx.StaticText(dlg,wx.ID_ANY,l))
+            for h in histnames:
+                miniSizer = wx.BoxSizer(wx.HORIZONTAL)
+                itemVal = G2G.ValidatedTxtCtrl(dlg,histdict[h][k],1,nDig=(10,4),typeHint=float)
+                miniSizer.Add(itemVal)
+                miniSizer.Add((2,-1))
+                miniSizer.Add(G2G.G2CheckBox(dlg,'',histdict[h][k],2),0,WACV,0)
+                fgs.Add(miniSizer,0,wx.ALIGN_CENTER)
+            fgs.Add(G2G.G2CheckBox(dlg,'',plotYsel,k,OnChange=onPrmPlot),0,wx.ALIGN_CENTER|WACV)
+ 
+        mainSizer.Add(fgs)
+
+        btnsizer = wx.BoxSizer(wx.HORIZONTAL)
+        btnsizer.Add((1,1),1,wx.EXPAND,1)
+        OKbtn = wx.Button(dlg, wx.ID_OK,'Close')
+        OKbtn.SetDefault()
+        OKbtn.Bind(wx.EVT_BUTTON,lambda event: dlg.EndModal(wx.ID_OK))
+        btnsizer.Add(OKbtn)
+        btnsizer.Add((1,1),1,wx.EXPAND,1)
+        mainSizer.Add((-1,5),1,wx.EXPAND,1)
+        mainSizer.Add(btnsizer,0,wx.ALIGN_CENTER,0)
+        mainSizer.Add((-1,10))
+        dlg.SetSizer(mainSizer)
+        mainSizer.Fit(dlg)
+        try:
+            res = dlg.ShowModal()
+        finally:
+            dlg.Destroy()
+
+        wx.CallAfter(UpdateInstrumentGrid,G2frame,data)
+
     def MakeParameterWindow():
         'Displays the Instrument parameters in the dataWindow frame'
         G2frame.dataWindow.ClearData()
@@ -2642,6 +2773,7 @@ def UpdateInstrumentGrid(G2frame,data):
         # end of MakeParameterWindow
                 
     # beginning of UpdateInstrumentGrid code    
+    plotYsel = {}
     #patch: make sure all parameter items are lists
     patched = 0
     for key in data:
@@ -2710,6 +2842,7 @@ def UpdateInstrumentGrid(G2frame,data):
         G2frame.Bind(wx.EVT_MENU,OnInstCopy,id=G2G.wxID_INSTCOPY)
         G2frame.Bind(wx.EVT_MENU,OnInstFlagCopy,id=G2G.wxID_INSTFLAGCOPY)
         G2frame.Bind(wx.EVT_MENU,OnCopy1Val,id=G2G.wxID_INST1VAL)
+        G2frame.Bind(wx.EVT_MENU,OnShowMult,id=G2G.wxID_INSTSHOWMULT)
     elif 'L' in insVal['Type'] or 'R' in insVal['Type']:                   #SASD & REFD data menu commands
         G2gd.SetDataMenuBar(G2frame,G2frame.dataWindow.SASDInstMenu)
         G2frame.Bind(wx.EVT_MENU,OnInstCopy,id=G2G.wxID_SASDINSTCOPY)
@@ -3066,7 +3199,7 @@ def UpdateSampleGrid(G2frame,data):
         'Select one value to copy to many histograms and optionally allow values to be edited in a table'
         G2G.SelectEdit1Var(G2frame,data,labelLst,elemKeysLst,dspLst,refFlgElem)
         wx.CallAfter(UpdateSampleGrid,G2frame,data)
-        
+
     def SearchAllComments(value,tc,*args,**kwargs):
         '''Called when the label for a FreePrm is changed: the comments for all PWDR
         histograms are searched for a "label=value" pair that matches the label (case

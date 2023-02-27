@@ -8301,6 +8301,10 @@ def SelectDataTreeItem(G2frame,item,oldFocus=None):
     elif G2frame.GPXtree.GetItemText(item) == 'Instrument Parameters':
         G2frame.PatternId = G2frame.GPXtree.GetItemParent(item)
         data = G2frame.GPXtree.GetItemPyData(item)[0]
+        if GSASIIpath.GetConfigValue('debug'): # DEBUG
+            import importlib as imp  # DEBUG
+            imp.reload(G2pdG) # DEBUG
+            print('reloading G2pdG') # DEBUG
         G2pdG.UpdateInstrumentGrid(G2frame,data)
         if 'P' in data['Type'][0]:          #powder data only
             G2plt.PlotPeakWidths(G2frame)
